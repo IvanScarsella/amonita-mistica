@@ -7,7 +7,7 @@ import { Inknut_Antiqua } from "next/font/google";
 import { Heebo } from "next/font/google";
 
 const inter = Inknut_Antiqua({ weight: ["300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
-const inter2 = Heebo({ weight: ["300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
+// const inter2 = Heebo({ weight: ["300", "400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
 
 
 const geistSans = localFont({
