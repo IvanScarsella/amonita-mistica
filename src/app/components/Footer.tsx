@@ -1,4 +1,4 @@
-import { Inknut_Antiqua } from "next/font/google";
+// import { Inknut_Antiqua } from "next/font/google";
 import { Heebo } from "next/font/google";
 import instagram from '../../../public/instagram.png'
 import Image from "next/image";
