@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { Inknut_Antiqua } from "next/font/google";
+
+const inter = Inknut_Antiqua({ weight: ["300", "400", "500", "600", "700", "800", "900"], subsets: ['latin'] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.className} antialiased max-w-[1440px] bg-white mx-auto`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
