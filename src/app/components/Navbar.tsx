@@ -6,7 +6,7 @@ import menu from '../../../public/menu.png'
 
 export default function Navbar() {
    return (
-      <header className="bg-green3 text-white flex flex-row justify-between pl-[100px] pr-[120px] py-[15px] h-20">
+      <header className="bg-green3 text-white flex flex-row justify-between pl-[100px] pr-[120px] py-[15px] h-20 fixed top-0 z-10 w-full max-w-[1440px]">
          <div className='flex flex-row gap-4 items-center'>
             <Image src={logo} className='size-[60px]' alt='logo' />
             <p className='text-4xl'>Amonita</p>

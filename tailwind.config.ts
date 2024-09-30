@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'serviceImage2': "url('/serviceImage2.png)"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -20,7 +23,7 @@ const config: Config = {
         black: '#252525',
       },
       fontFamily: {
-        custom: ['"Heebo"', 'sans-serif'],
+        heebo: ['Heebo', 'sans-serif'],
       },
     },
   },
